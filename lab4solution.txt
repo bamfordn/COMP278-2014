@@ -1,0 +1,90 @@
+Nelson Bamford
+9/22/14
+lab4solutions
+
+Use the laws above to simplify expressions. Label the laws that you apply as you apply them (no more than one law per line).
+
+
+1)(a * b)' * (a' + b) * (b' + b) = a'
+   a' + b' * a' + b * (b' + b) = a' DeMorg
+   a' + b' * a' + b * 1 = a' Compliment
+   a' * (b' + b) * 1 = a' Distribute
+   a' * 1 * 1 = a' Compliment
+   a' * 1 = a' Identity
+   a' = a'
+
+2) c + (b * c)' = 1
+   c + (b' + c') = 1 DeMorg
+   b' + (c + c') = 1 Associative
+   b' + 1 = 1 Compliment
+   1 = 1
+
+3) (a + c) * (a * d + a * d') + a * c + c = a + c
+   (a + c) * (a * d + a * d') + a * c  = a + c Idempotence
+   (a + c) * (a * a + d * d') + a * c  = a + c Associative
+   (a + c) * (a + d * d') + a * c  = a + c Idempotence
+   (a + c) * (a + 1) + a * c = a + c Complement
+   (a + c) * 1 + a * c = a + c Identity
+   (a + c) * 1 * c = a + c Identity
+   (a + c) * c = a + c Absorption
+    a = a + c
+
+4)   a' * (a + b) + (b + a * a) * (a + b')
+    (a' * a) + (a' * b) + (b + a * a) * (a + b') Distribution
+    (0) + (a' * b) + (b + a * a) * (a + b') Complement
+    (a' * b) + (b + a * a) * (a + b') Identity
+    (a' * b) + (b + a ) * (a + b') Idempotence
+    (a' * b) + (b * a) + (b * b') + (a * a) + (a * b') distribut
+    (a' * b) + (b * a) + 0 + (a * a) + (a * b')  Complement
+    (a' * b) + (b * a) + 0 + a + (a * b') Idepotence
+    (a' * b) + (b * a) + a + (a * b') Identity
+    (a' * b) + a + (a * b') Absorption
+    (a + a') * (a + b) + (a * b') distributive
+    (0) * (a + b) + (a * b') Complement
+    (0) + (a * b) Identity
+    (a * b) Identity
+
+5) (a' * b') + (a' * b ) + (a * b') = (a * b)'
+   (a' * b') + (a' * a) + (a' * b') + (b * a) + (b * b') Destrib
+   (a' * b') + 0 * (a' + b') * (b + a) * 0 Complement
+   (a' * b') = (a * b)' Identity
+
+
+Find the dual form of these expressions (DO NOT simplify):
+
+
+1) (a * b)' * c + a' * 0
+
+2) 0 * 0 + 1'
+
+Convert this Karnaugh map to a truth table (AB are the rows, XY are the columns).
+
+A B X Y  F(ABXY)
+0 0 0 0     1
+0 0 0 1     1
+0 0 1 0     1
+0 0 1 1     1
+0 1 0 0     0
+0 1 0 1     1
+0 1 1 0     1
+0 1 1 1     1
+1 0 0 0     0
+1 0 0 1     0
+1 0 1 0     1
+1 0 1 1     0
+1 1 0 0     0
+1 1 0 1     0
+1 1 1 0     1
+1 1 1 1     1
+
+
+
+
+
+
+
+
+
+
+  
+  
