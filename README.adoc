@@ -1,60 +1,40 @@
 = COMP278 (Computer Architecture)
 
-== Day 2
+== Week 6
 
-=== Install Git and frontends
-[[install-git]]
-Windows:: https://code.google.com/p/gitextensions/downloads/list[Install Git Extensions, MSysGit and KDiff3].
-+
-NOTE: Stick to the default settings, but when asked, *choose OpenSSH (not PuTTY)*.
+* Lecture 11: Hand back midterms
+* Lab 6: State machine design
+* No Monday meeting: Columbus Day
 
-Mac OS X:: http://rowanj.github.io/gitx/[Install GitX-dev].
-+
-NOTE: https://developer.apple.com/xcode/downloads/[XCode developer tools] ships with git; otherwise, http://git-scm.com/download/mac[install the latest git from here].
+== Week 5
 
-Linux:: http://git-scm.com/download/linux[Install git] using your package manager. http://sourceforge.net/projects/qgit/[QGit, a git frontend] may also be available for your distribution.
-+
-NOTE: Don't forget to use +sudo+ with your package manager.
+* Lecture 10: Sequential logic, finite state machines
+* Lecture 9: Latches, flip-flops, registers
+* Lab 5: Midterm!
 
-=== Setup your course repository
-[[setup-repo]]
-IMPORTANT: You must use LeopardSecure, not LeopardGuest.
+== Week 4
 
-All platforms:: Paste this into your terminal (Git Bash on Windows):
-+
-----
-curl https://raw.githubusercontent.com/lawrancej/COMP278-2014/master/starterupper.sh | bash
-----
-+
-NOTE: Press +Insert+ to paste in Git Bash.
+* http://lawrancej.github.io/COMP278-2014/exams/practice-midterm2.pdf[Lecture 8: Practice midterm II]
+* http://lawrancej.github.io/COMP278-2014/exams/practice-midterm1.pdf[Lecture 7: Practice midterm I (PDF)] https://github.com/lawrancej/COMP278-2014/blob/master/exams/practice-midterm1.adoc[(Asciidoc)]
+** https://github.com/lawrancej/COMP278-2014/blob/master/scribbles/midterm-your-head-asplode2.png[Solutions (PNG)]
+** https://github.com/lawrancej/COMP278-2014/blob/master/exams/practice-midterm1-solutions.adoc[Solutions (Asciidoc)]
+* https://github.com/lawrancej/COMP278-2014/blob/master/lab-instructions/lab4.adoc[Lab 4: Boolean algebra, Karnaugh maps, multiplexers]
 
-=== Pretest
+== Week 3
 
-https://docs.google.com/forms/d/1VkxOzu9nwzDt4SuFOXCnEMKvP5tulhHJSkN4_cyraCM/viewform[What do you already know about computer architecture? Answer individually]
+* https://github.com/lawrancej/COMP278-2014/blob/master/lectures/lecture6.adoc[Lecture 6: Function tables, multiplexers]
+* https://github.com/lawrancej/COMP278-2014/blob/master/lectures/lecture5.adoc[Lecture 5: Boolean algebra, Gray codes and Karnaugh maps]
+* https://github.com/lawrancej/COMP278-2014/blob/master/lab-instructions/lab3.adoc[Lab 3: Logic representation and binary arithmetic]
 
-=== Git practice
+== Week 2
 
-IMPORTANT: If you use Windows, first download and install http://notepad-plus-plus.org/download/v6.6.9.html[a proper text editor] (Notepad, Word and WordPad do not count). 
+* https://github.com/lawrancej/COMP278-2014/blob/master/lectures/lecture4.adoc[Lecture 4: Binary arithmetic]
+* https://github.com/lawrancej/COMP278-2014/blob/master/lectures/lecture3.adoc[Lecture 3: Logic representation overview]
+* https://github.com/lawrancej/COMP278-2014/blob/master/lab-instructions/lab2.adoc[Lab 2: Number representation practice]
 
-Create a new text file in your COMP278-2014 folder called practice.txt. In that file, write a sentence or two about what (if anything) you'd like to learn in this class. Save your work.
+== Week 1
 
-Next, stage, commit and push our stuff off to ensure git is working. You can also use Git Extensions to do this.
+* https://github.com/lawrancej/COMP278-2014/blob/master/lab-instructions/lab1.adoc[Lab 1: Number representation overview]
+* https://github.com/lawrancej/COMP278-2014/blob/master/lectures/lecture2.adoc[Lecture 2: Git setup and Pretest]
+* https://github.com/lawrancej/COMP278-2014/blob/master/lectures/lecture1.adoc[Lecture 1: Introduction and Syllabus]
 
-----
-git add practice.txt            # Stage practice.txt (include in next commit)
-git commit -m "Git practice"    # Commit changes with a message
-git push origin master          # Send work to your private repository
-----
-
-== Day 1
-
-=== Introduction
-
-. What's your name?
-. Why did you pick your major?
-. Tell us something nobody else knows about you.
-
-=== https://github.com/lawrancej/COMP278-2014/blob/master/SyllabusCOMP278Lawrance.docx?raw=true[Syllabus (Word document)]
-
-* The textbook is recommended, but not required. https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md[Here's some free textbooks instead.]
-* As long as we're here, https://github.com/sindresorhus/awesome[check out some awesome stuff].
